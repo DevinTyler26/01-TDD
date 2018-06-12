@@ -1,17 +1,17 @@
-'use strict'
+'use strict';
 
 const arithmetic = module.exports = {};
 
 arithmetic.add = (a, b) => {
-    if (a === NaN || b === NaN) {
-      return null;
-    }
-    return a + b;
-  };
+  if (isNaN(a) || isNaN(b)) {
+    return null;
+  }
+  return a + b;
+};
 
 arithmetic.sub = (a, b) => {
-if (a === NaN || b === NaN) {
+  if (isNaN(a) || isNaN(b)) { /* disable eslint */
     return null;
-}
-return a - b;
+  }
+  return a - b;
 };
