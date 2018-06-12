@@ -48,4 +48,9 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
   * `else` return the second parameter subtracted from the first parameter
 
 ### Documentation
-In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+The add method adds 2 params together
+The sub method subtracts 2 params
+and for each method, if anything other than a number is inputted, it will return null
+
+The greet function takes in a name and outputs Hello and the name inputted
+If anything other than a string in inputted it will return null
