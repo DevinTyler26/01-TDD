@@ -3,7 +3,6 @@
 const arithmetic = module.exports = {};
 
 arithmetic.add = (a, b) => {
-    const add = (a,b) => a + b; 
     if (a === NaN || b === NaN) {
       return null;
     }
