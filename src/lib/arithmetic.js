@@ -2,16 +2,16 @@
 
 const arithmetic = module.exports = {};
 
-add.numbers = (a, b) => {
+arithmetic.add = (a, b) => {
     if (a || b === NaN) {
       return null;
     }
     return (a, b) =>  a + b;
   };
 
-  sub.numbers = (a, b) => {
-    if (a || b === NaN) {
-      return null;
-    }
-    return (a, b) =>  a - b;
-  };
+arithmetic.sub = (a, b) => {
+if (a || b === NaN) {
+    return null;
+}
+return (a, b) =>  a - b;
+};
